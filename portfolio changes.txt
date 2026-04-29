@@ -1,0 +1,21 @@
+Portfolio content & structure (living reference)
+
+SITE CONFIG (`src/config/site.ts`)
+- CONTACT_EMAIL — update to your real address (replaced old chandini-local-part placeholder).
+- RESUME_PATH — default `/resume.pdf`; add your PDF as `public/resume.pdf`.
+
+HERO
+- SDE-style background: dark slate + subtle grid (class `hero-sde-background` in index.css).
+- CTAs: View Projects, Download Resume.
+
+THEME
+- Primary / accents use TCS-style blue (HSL from #0072BC) — review in `index.css` :root.
+
+ABOUT / CONTACT
+- Import `CONTACT_EMAIL` from `@/config/site`.
+
+EXPERIENCE
+- Official TCS logo: `public/Tata_Consultancy_Services_old_logo.svg.png`.
+
+PROJECTS
+- Includes Smart Eye (Aug 2021) with TCS logo; Nutanix, J&J+Vodafone, Mental Health ML.
